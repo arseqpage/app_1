@@ -1,0 +1,24 @@
+.btn-nav {
+  padding: 24px 48px;
+
+  outline: none;
+  cursor: pointer;
+
+  color: var(--color-black);
+  font-weight: 400;
+  text-transform: uppercase;
+
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: 12px;
+
+  transition: background-color 0.2s ease-in, box-shadow 0.2s linear;
+}
+
+.btn-nav:hover {
+  background-color: var(--color-primary-darken);
+  box-shadow: 0px 2.4px 2.2px rgba(0, 0, 0, 0.008),
+    0px 5.8px 5.3px rgba(0, 0, 0, 0.012), 0px 10.9px 10px rgba(0, 0, 0, 0.015),
+    0px 19.4px 17.9px rgba(0, 0, 0, 0.018),
+    0px 36.3px 33.4px rgba(0, 0, 0, 0.022), 0px 87px 80px rgba(0, 0, 0, 0.03);
+}
