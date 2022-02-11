@@ -1,3 +1,4 @@
+import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import ButtonMain from "./ui/Buttons/ButtonMain/ButtonMain";
 import ButtonNav from "./ui/Buttons/ButtonNav/ButtonNav";
@@ -10,6 +11,7 @@ function App() {
       <ButtonMain />
       <ButtonSecondary />
       <ButtonNav />
+      <Footer />
     </div>
   );
 }
