@@ -3,8 +3,9 @@
   --color-primary-darken: #f2c79b;
   --color-primary-light: #fff5eb;
   --color-gray: #f5f2f0;
-  --color-black: #161722;
+  --color-dark: #161722;
   --color-white: #fff;
+  --color-black: #0d0d0d;
 }
 
 *,
